@@ -1,19 +1,67 @@
 .navlink {
-  width: 13rem;
-  height: 2.5rem;
-  transform: skew(-40deg);
-  background: rgb(222, 218, 218);
+  width: 22rem;
+  height: 4rem;
+  transform: skew(-30deg);
+  background: #22186Df5;
   margin-right: 5px;
+  background: linear-gradient(to left, #22186df5 50%, #22186D 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.navlink:hover{
+  background-position: left;
 }
 nav {
   display: flex;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  background-color: rgb(233, 233, 240, 0.5);
   padding-right: 2rem;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.rect1 {
+  width: 20rem;
+  height: 4rem;
+  background: #22186D;
+  transform: skew(30deg) translate(-5rem, 0);
+}
+.rect2 {
+  width: 20rem;
+  height: 4rem;
+  background: #22186D;
+  transform: skew(30deg) translate(5rem, 0);
+}
+.navtext {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: skew(30deg) translate(-50%, -50%);
+  font-family: "Dosis";
+  cursor: pointer;
 
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 4rem solid #F3B541;
+  border-right: 2.3rem solid transparent;
+  position: absolute;
+  margin-left: -1.55rem;
+}
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-bottom: 4rem solid #F3B541;
+  border-left: 2.3rem solid transparent;
+  margin-left: -1.10rem;
+  right: 100%;
 }
