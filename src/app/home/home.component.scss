@@ -1,0 +1,19 @@
+.navlink {
+  width: 13rem;
+  height: 2.5rem;
+  transform: skew(-40deg);
+  background: rgb(222, 218, 218);
+  margin-right: 5px;
+}
+nav {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgb(233, 233, 240, 0.5);
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
